@@ -9,7 +9,7 @@ header {
     background-color:lightseagreen;
 }
 #gambar {
-    width: 25%;
+    width: 35%;
     border-radius: 50%;
     display: block;
     margin-left: auto;
@@ -38,6 +38,10 @@ footer {
     font-size: 16px;
 }
 @media screen and (max-width :500px) {
+    div.col {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     #keterangan {
         padding-left: 40px;
         padding-right: 40px;
