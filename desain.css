@@ -1,0 +1,45 @@
+header {
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    font-family:cursive
+}
+#utama {
+    padding: 50px;
+    background-color:lightseagreen;
+}
+#gambar {
+    width: 25%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#keterangan {
+    padding-top: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+footer {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.ikon {
+    padding: 20px;
+}
+#referensi {
+    margin-top: 50px;
+    text-align: center;
+    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+@media screen and (max-width :500px) {
+    #keterangan {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
